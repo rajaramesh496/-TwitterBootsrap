@@ -1,0 +1,72 @@
+2014-09-01 07:36:32 Error: [NotFoundException] Not Found
+Request URL: /cakephp-2.5.3/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\View\View.php(948): include()
+#1 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\View\View.php(910): View->_evaluate('C:\xampp\htdocs...', Array)
+#2 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\View\View.php(471): View->_render('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Controller\Controller.php(954): View->render('home', NULL)
+#4 C:\xampp\htdocs\cakephp-2.5.3\app\Controller\PagesController.php(69): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp-2.5.3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-01 07:42:58 Error: [NotFoundException] Not Found
+Request URL: /cakephp-2.5.3/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\View\View.php(948): include()
+#1 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\View\View.php(910): View->_evaluate('C:\xampp\htdocs...', Array)
+#2 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\View\View.php(471): View->_render('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Controller\Controller.php(954): View->render('home', NULL)
+#4 C:\xampp\htdocs\cakephp-2.5.3\app\Controller\PagesController.php(69): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp-2.5.3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-01 08:42:03 Error: [MissingPluginException] Plugin TwitterBootstrap could not be found.
+Exception Attributes: array (
+  'plugin' => 'TwitterBootstrap',
+)
+Request URL: /cakephp-2.5.3/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Core\App.php(227): CakePlugin::path('TwitterBootstra...')
+#1 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Core\App.php(549): App::path('View/Helper', 'TwitterBootstra...')
+#2 [internal function]: App::load('BootstrapHtmlHe...')
+#3 [internal function]: spl_autoload_call('BootstrapHtmlHe...')
+#4 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\View\HelperCollection.php(130): class_exists('BootstrapHtmlHe...')
+#5 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\View\View.php(886): HelperCollection->load('Html', Array)
+#6 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\View\View.php(354): View->loadHelpers()
+#7 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(PagesController))
+#8 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#9 C:\xampp\htdocs\cakephp-2.5.3\app\Controller\PagesController.php(69): Controller->render('home')
+#10 [internal function]: PagesController->display('home')
+#11 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#12 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp-2.5.3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-01 09:02:42 Error: [MissingPluginException] Plugin TwitterBootstrap could not be found.
+Exception Attributes: array (
+  'plugin' => 'TwitterBootstrap',
+)
+Request URL: /cakephp-2.5.3/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Core\App.php(227): CakePlugin::path('TwitterBootstra...')
+#1 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Core\App.php(549): App::path('View/Helper', 'TwitterBootstra...')
+#2 [internal function]: App::load('BootstrapHtmlHe...')
+#3 [internal function]: spl_autoload_call('BootstrapHtmlHe...')
+#4 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\View\HelperCollection.php(130): class_exists('BootstrapHtmlHe...')
+#5 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\View\View.php(886): HelperCollection->load('Html', Array)
+#6 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\View\View.php(354): View->loadHelpers()
+#7 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(PagesController))
+#8 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#9 C:\xampp\htdocs\cakephp-2.5.3\app\Controller\PagesController.php(69): Controller->render('home')
+#10 [internal function]: PagesController->display('home')
+#11 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#12 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp-2.5.3\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp-2.5.3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
